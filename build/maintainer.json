@@ -783,8 +783,13 @@
     "/caixin/:column/:category": [
         "idealclover"
     ],
-    "/cankaoxiaoxi/news/:category": [
-        "yuxinliu-alex"
+    "/cankaoxiaoxi/column/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
+    ],
+    "/cankaoxiaoxi/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
     ],
     "/cartoonmad/comic/:id": [
         "KellyHwong"
@@ -926,6 +931,9 @@
     ],
     "/chsi/kydt": [
         "SunBK201"
+    ],
+    "/chsi/kyzx/:type": [
+        "yanbot-team"
     ],
     "/ciidbnu/:id?": [
         "nczitzk"
@@ -2097,6 +2105,12 @@
         "DHPO",
         "hoilc"
     ],
+    "/gzdaily/app/:column?": [
+        "TimWu007"
+    ],
+    "/gzdaily/cmc/:channel?": [
+        "TimWu007"
+    ],
     "/gzh360/category/:id?": [
         "Rongronggg9"
     ],
@@ -2451,6 +2465,9 @@
     "/instagram/2/:category/:key": [
         "TonyRL"
     ],
+    "/instructables/projects/:category?": [
+        "wolfg1969"
+    ],
     "/iqiyi/album/:id": [
         "TonyRL"
     ],
@@ -2769,6 +2786,12 @@
     ],
     "/jornada/:date?/:category?": [
         "Thealf154"
+    ],
+    "/jou/tzgg": [
+        "real-jiakai"
+    ],
+    "/jou/yztzgg": [
+        "real-jiakai"
     ],
     "/jseea/news/:type?": [
         "schen1024"
@@ -3104,6 +3127,18 @@
     "/mobilism/portal/:type/:fulltext?": [
         "nitezs"
     ],
+    "/modelscope/community": [
+        "TonyRL"
+    ],
+    "/modelscope/datasets": [
+        "TonyRL"
+    ],
+    "/modelscope/models": [
+        "TonyRL"
+    ],
+    "/modelscope/studios": [
+        "TonyRL"
+    ],
     "/mohw/clarification": [
         "nczitzk"
     ],
@@ -3241,6 +3276,14 @@
     "/ngocn2/:category?": [
         "nczitzk"
     ],
+    "/nhentai/search/:keyword/:mode?": [
+        "MegrezZhu",
+        "hoilc"
+    ],
+    "/nhentai/:key/:keyword/:mode?": [
+        "MegrezZhu",
+        "hoilc"
+    ],
     "/nifd/research/:categoryGuid?": [
         "Fatpandac"
     ],
@@ -3348,6 +3391,9 @@
     "/njust/jwc/:type?": [
         "MilkShakeYoung",
         "jasongzy"
+    ],
+    "/njxzc/libtzgg": [
+        "real-jiakai"
     ],
     "/njxzc/tzgg": [
         "real-jiakai"
@@ -4426,6 +4472,9 @@
         "TonyRL",
         "ETiV"
     ],
+    "/techcrunch/news": [
+        "NavePnow"
+    ],
     "/techflowpost/express": [
         "nczitzk"
     ],
@@ -4914,6 +4963,9 @@
     ],
     "/wangqiutiyu/anchor/:id": [
         "nczitzk"
+    ],
+    "/wanqu/news": [
+        "Fatpandac"
     ],
     "/warthunder/news": [
         "axojhf"
@@ -5765,8 +5817,6 @@
     "/chouti/top/:hour?": [],
     "/chouti/:subject?": [],
     "/westore/new": [],
-    "/nhentai/search/:keyword/:mode?": [],
-    "/nhentai/:key/:keyword/:mode?": [],
     "/ltaaa/:category?": [],
     "/autotrader/:query": [],
     "/geekpark/breakingnews": [],
